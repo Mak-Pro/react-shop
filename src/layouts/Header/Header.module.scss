@@ -1,0 +1,24 @@
+.header {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100vw;
+  z-index: 100;
+  background-color: #fff;
+
+  .content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem 0;
+
+    &_side {
+      position: relative;
+    }
+  }
+
+  .logo {
+    font-size: 3rem;
+    font-weight: 700;
+  }
+}

@@ -1,0 +1,46 @@
+@import "./assets/styles/reset.css";
+@import "./assets/styles/custom-fonts.css";
+
+@mixin type($ff: "Roboto Mono", $fz: 1.6rem, $fw: 400, $tt: none, $lh: 1.5) {
+  font-family: $ff;
+  font-size: $fz;
+  font-weight: $fw;
+  text-transform: $tt;
+  line-height: $lh;
+}
+
+:root {
+  --variable-name: ;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  @include type();
+}
+
+// h1 {
+//   @include type(inherit, 8rem, 900, none, 1);
+// }
+
+// h2 {
+//   @include type(inherit, 5.5rem, 800, none, 1.25);
+// }
+
+// h3 {
+//   @include type(inherit, 3.2rem, 600, none, 1.25);
+// }
+
+// h4 {
+//   @include type(inherit, 2.8rem, 600, none, 1.25);
+// }
+
+// h5 {
+//   @include type(inherit, 2.6rem, 600, none, 1.25);
+// }
+
+// h6 {
+//   @include type(inherit, 2rem, 600, none, 1.25);
+// }
